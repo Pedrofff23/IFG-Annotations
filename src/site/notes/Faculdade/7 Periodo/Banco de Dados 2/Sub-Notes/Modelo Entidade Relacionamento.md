@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Modelo Entidade Relacionamento/"}
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Modelo Entidade Relacionamento/","tags":["main"]}
 ---
 
 # Atributo e Entidade
