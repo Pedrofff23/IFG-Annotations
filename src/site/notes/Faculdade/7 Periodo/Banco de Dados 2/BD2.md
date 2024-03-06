@@ -9,8 +9,6 @@
 - [[SQL\|SQL]]
 - [[Algebra Relacional\|Algebra Relacional]]
 - [[Normalização\|Normalização]]
-- [[Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Modelo Entidade Relacionamento\|Modelo Entidade Relacionamento]]
 
-{ .block-language-dataview}
 ### BD 2
 - [[NOSQL\|NOSQL]]
