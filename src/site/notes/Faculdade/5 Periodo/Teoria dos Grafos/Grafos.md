@@ -1,4 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","tags":["root"]}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","tags":["root","grafos"]}
 ---
 
+
+## Ementa
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos\|Conceitos Básicos]] : Grafos e Subgrafos; 
+- Isomorfismo, Matrizes de Adjacência e Incidência, Caminhos e Ciclos; 
+- Cortes de Arestas, Cortes de Vértices; 
+- Conectividade: Conectividade de Vértices e Arestas; 
+- Caminhos e Ciclos Eulerianos e Hamiltonianos; 
+- Emparelhamentos; 
+- Coloração de Vértices e de Arestas; 
+- Planaridade;
+- Análise de complexidade nos algoritmos de  Representação e Caminhos.
