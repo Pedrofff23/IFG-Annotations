@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/BD2/","tags":["root","BD"],"dgShowLocalGraph":true}
+{"dg-publish":true,"tags":["root","BD"],"dg-show-local-graph":true,"cssClasses":"list-cards","permalink":"/Faculdade/7 Periodo/Banco de Dados 2/BD2/","contentClasses":"list-cards","dgShowLocalGraph":true,"dgPassFrontmatter":true}
 ---
 
 ## Ementa
