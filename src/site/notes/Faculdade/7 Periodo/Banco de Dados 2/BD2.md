@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/BD2/","contentClasses":"list-cards","tags":["root","BD"],"dgShowLocalGraph":true}
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/BD2/","tags":["root","BD"],"dgShowLocalGraph":true}
 ---
 
 ## Ementa
@@ -14,4 +14,3 @@
 
 ### BD 2
 - [[NOSQL\|NOSQL]]
-teste
