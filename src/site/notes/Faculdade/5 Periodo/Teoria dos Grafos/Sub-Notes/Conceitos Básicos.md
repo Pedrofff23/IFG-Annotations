@@ -38,4 +38,30 @@
 | d(z)     | 0        |
 
 
-- A sequência de grau de um grafo consiste em que os graus são escritos em ordem crescente.
+- A **sequência de grau de um grafo** consiste em que os graus são escritos em ordem crescente.
+
+$$
+I
+$$
+
+![](https://i.imgur.com/sICkvTY.png)
+
+$$
+II
+$$
+
+![](https://i.imgur.com/l6Ic04A.png)
+
+$$
+III
+$$
+
+![](https://i.imgur.com/Useg3BA.png)
+
+<ol type="A" style="list-style-type:upper-roman;">
+<li>Sequência de grau do grafo (i):  (1, 1, 2, 2, 2)</li>
+<li>Sequência de grau do grafo (ii): (1, 1, 2, 2, 2)</li>
+<li>Sequência de grau do grafo (iii):  (1, 3, 6, 8)</li>
+</ol>
+
+
