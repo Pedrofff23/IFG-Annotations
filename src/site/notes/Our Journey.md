@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Our Journey/","tags":["gardenEntry"]}
+{"dg-home":true,"dg-publish":true,"permalink":"/Our Journey/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 
