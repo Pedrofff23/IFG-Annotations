@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","tags":["root","grafos"]}
+{"dg-publish":true,"tags":["root","grafos"],"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","dgPassFrontmatter":true}
 ---
 
 
