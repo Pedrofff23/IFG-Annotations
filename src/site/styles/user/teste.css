@@ -21,7 +21,7 @@ body {
     --cards-border-width: 1px;
     --cards-aspect-ratio: auto;
     --cards-columns: repeat(auto-fit, minmax(var(--cards-min-width), var(--cards-max-width)));
-  
+}
   
   @media (max-width: 400pt) {
     body {
@@ -366,4 +366,3 @@ body {
       --cards-columns: repeat(8, minmax(0, 1fr));
     }
   }
-}
