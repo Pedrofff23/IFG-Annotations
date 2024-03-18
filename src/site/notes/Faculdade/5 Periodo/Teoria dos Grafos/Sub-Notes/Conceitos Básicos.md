@@ -16,3 +16,8 @@
 ![](https://i.imgur.com/XMeXXkM.png)
 - **Link** (enlace): aresta com extremos diferentes.
 ![](https://i.imgur.com/HnYrJJx.png)
+- **Arestas Múltiplas**: mais de uma aresta com os mesmos extremos. 
+![](https://i.imgur.com/8wKVP0F.png)
+
+- **Arestas paralelas**: duas arestas com os mesmos extremos.
+![](https://i.imgur.com/8t3gPix.png)
