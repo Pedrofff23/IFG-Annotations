@@ -14,4 +14,3 @@
 
 ### BD 2
 - [[NOSQL\|NOSQL]]
-teste
