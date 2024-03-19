@@ -5,7 +5,8 @@
 ## Topics
 1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definições e Exemplos\|Definições e Exemplos]]
 	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definição de grau\|Definição de grau]]
-	2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teorema 1\|Teorema 1]]
+2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teoremas\|Teoremas]]
+	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teorema 1\|Teorema 1]]
 ---
 - **Notações**:
 	- *G*: Grafo com conjunto de vértices V(G) e conjunto de arestas E(G).
@@ -68,8 +69,30 @@ $$
 <li>Sequência de grau do grafo (iii):  (1, 3, 6, 8)</li>
 </ol>
 
-### Teoremas
-#### Teorema 1
-- Em **qualquer grafo**, a soma dos grausde um grafo **G = (V; E)** é igual a duas vezes o número de arestas
+## Teoremas
+### Teorema 1
+- Em **qualquer grafo**, a soma dos graus de um grafo **G = (V; E)** é igual a duas vezes o número de arestas
 $$ \sum d(v_i) = 2 |E| = 2m$$
+
+- **Exemplo:** Um grafo tem exatamente 4 vértices,  cada um de grau 3. Quantas arestas este grafo tem?
+
+$$
+\begin{aligned}
+ \sum d(v_i) &= 4 \cdot 3 = 12  && \text (1)  \\
+    \sum d(v_i) &= 2 |E|\\
+    12     &= 2|E|        \\
+    |E|     &= \frac{12}{2} \\
+    |E| &= 6 \text{ arestas}
+\end{aligned}
+$$
+
+> [!important] Importante
+> **Corolário 1:** O número de vértices de grau impar é par (trivial). 
+
+
+- Denomina-se ordem de G a cardinalidade do seu conjunto de vértices. |V|= n.
+- Denomina-se tamanho de G a cardinalidade do seu conjunto de arestas. |E|= m.
+
+Grafo (1) ordem  5       e tamanho     8   . 
+Grafo (2) ordem    4     e tamanho     4    .
 
