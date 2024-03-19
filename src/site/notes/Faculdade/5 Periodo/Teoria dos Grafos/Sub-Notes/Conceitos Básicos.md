@@ -4,8 +4,8 @@
 
 ## Topics
 1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definições e Exemplos\|Definições e Exemplos]]
-	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definição de grau\|#Definição de grau]]
-	2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teorema 1\|#Teorema 1]]
+	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definição de grau\|Definição de grau]]
+	2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teorema 1\|Teorema 1]]
 ---
 - **Notações**:
 	- *G*: Grafo com conjunto de vértices V(G) e conjunto de arestas E(G).
