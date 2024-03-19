@@ -2,7 +2,11 @@
 {"tags":["grafos"],"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos/","dgPassFrontmatter":true}
 ---
 
-
+## Topics
+1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definições e Exemplos\|#Definições e Exemplos]]
+	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definição de grau\|#Definição de grau]]
+	2. 
+---
 - **Notações**:
 	- *G*: Grafo com conjunto de vértices V(G) e conjunto de arestas E(G).
 	- *n*: Número de vértices de G.
@@ -64,4 +68,8 @@ $$
 <li>Sequência de grau do grafo (iii):  (1, 3, 6, 8)</li>
 </ol>
 
+### Teoremas
+#### Teorema 1
+- Em **qualquer grafo**, a soma dos grausde um grafo **G = (V; E)** é igual a duas vezes o número de arestas
+$$ \sum d(v_i) = 2 |E| = 2m$$
 
