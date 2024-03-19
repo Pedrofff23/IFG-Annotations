@@ -1,5 +1,5 @@
 ---
-{"tags":["grafos"],"dg-publish":true,"dg-show-file-tree":"fals","permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos/","dgShowFileTree":"fals","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos/","tags":["grafos"]}
 ---
 
 ## Topics
