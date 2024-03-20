@@ -151,15 +151,3 @@ $$
 
 > [!important] Importante
 > **Corolário 1:** O número de vértices de grau impar é par (trivial). 
-
-### Grafos simples
-- Um **grafo simples** com **N** nós pode ter:
-$$
-C(n,2) =  \frac{n\cdot(n-1)}{2}
-$$
-diferentes arestas e cada uma delas pode estar presente ou não
-- E por meio dessa conta calculamos o **máximo de grafos simples** com N nós:
-
-$$
-2^{n \cdot(n-1)/2}
-$$
