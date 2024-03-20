@@ -9,7 +9,7 @@
 		1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definição de grau\|Definição de grau]]
 		2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Grau de Entrada ou Saída\|Grau de Entrada ou Saída]]
 		3. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Soma dos graus\|Soma dos graus]]
-	3. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Ordem e Tamanho\|Ordem e Tamanho]]
+	3. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Ordem, Tamanho e Rótulo\|Ordem, Tamanho e Rótulo]]
 	4. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Direcionado ou Orientado\|Direcionado ou Orientado]]
 2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teoremas\|Teoremas]]
 	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teorema 1\|Teorema 1]]
@@ -107,7 +107,7 @@ $$
 
 
 ### Ordem, Tamanho e Rótulo
-- Um grafo é dito rotulado se existem atribuições associadas a suas arestas ou vértices
+- Um grafo é dito **rotulado** se existem atribuições associadas a suas arestas ou vértices
 - Denomina-se **ordem** de G a cardinalidade do seu conjunto de vértices. |V|= n.
 - Denomina-se **tamanho** de G a cardinalidade do seu conjunto de arestas. |E|= m.
 ![](https://i.imgur.com/0Hdmh4R.png)
