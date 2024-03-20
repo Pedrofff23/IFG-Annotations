@@ -1,368 +1,572 @@
-
-/* MIT License | Copyright (c) Stephan Ango (@kepano) 
-
-Cards snippet for Obsidian
-
-author: @kepano
-version: 3.0.1
-
-Support my work:
-https://github.com/sponsors/kepano
-
-*/
 body {
-    --cards-min-width: 180px;
-    --cards-max-width: 1fr;
-    --cards-mobile-width: 120px;
-    --cards-image-height: 400px;
-    --cards-padding: 1.2em;
-    --cards-image-fit: contain;
-    --cards-background: transparent;
-    --cards-border-width: 1px;
-    --cards-aspect-ratio: auto;
-    --cards-columns: repeat(auto-fit, minmax(var(--cards-min-width), var(--cards-max-width)));
+  --image-border-color: var(--background-modifier-border);
+  --image-border-width: 1px;
+  --image-border-padding: 8px;
+  --image-border-background: var(--td);
 }
-  
-  @media (max-width: 400pt) {
-    body {
-      --cards-min-width:var(--cards-mobile-width);
-    }
+
+/*----Image Positions/Adjustments----*/
+body {
+  --micro: 70px;
+  --tiny: 100px;
+  --small: 200px;
+  --small-med: 300px;
+  --med-small: 400px;
+  --medium: 500px;
+  --med-tall: 600px;
+  --tall: 700px;
+}
+
+.popover.hover-popover {
+  --micro: 70px;
+  --tiny: 100px;
+  --small: 150px;
+  --small-med: 200px;
+  --med-small: 250px;
+  --medium: 300px;
+  --med-tall: 450px;
+  --tall: 500px;
+}
+
+/*----Mobile----*/
+@media (max-width: 500px) {
+  .theme-dark, .theme-light {
+    /*Mobile Sizes*/
+    --radius: 0px;
+    --micro: 70px;
+    --tiny: 100px;
+    --small: 150px;
+    --small-med: 200px;
+    --med-small: 250px;
+    --medium: 300px;
+    --med-tall: 450px;
+    --tall: 500px;
   }
-  .cards.table-100 table.dataview tbody,
-  .table-100 .cards table.dataview tbody {
-    padding: 0.25rem 0.75rem;
-  }
-  
-  .cards table.dataview {
-    --table-width: 100%;
-    --table-edge-cell-padding-first: calc(var(--cards-padding)/2);
-    --table-edge-cell-padding-last: calc(var(--cards-padding)/2);
-    --table-cell-padding: calc(var(--cards-padding)/3) calc(var(--cards-padding)/2);
-    line-height: 1.3;
-  }
-  .cards table.dataview tbody {
-    clear: both;
-    padding: 0.5rem 0;
-    display: grid;
-    grid-template-columns: var(--cards-columns);
-    grid-column-gap: 0.75rem;
-    grid-row-gap: 0.75rem;
-  }
-  .cards table.dataview > tbody > tr {
-    background-color: var(--cards-background);
-    border: var(--cards-border-width) solid var(--background-modifier-border);
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0 0 calc(var(--cards-padding) / 3) 0;
-    border-radius: 6px;
-    overflow: hidden;
-    transition: box-shadow 0.15s linear;
-    max-width: var(--cards-max-width);
-    height: auto;
-  }
-  .cards table.dataview > tbody > tr:hover {
-    border: var(--cards-border-width) solid var(--background-modifier-border-hover);
-    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.05), 0 1px 3px 1px rgba(0, 0, 0, 0.025);
-    transition: box-shadow 0.15s linear;
-  }
-  .cards table.dataview tbody > tr > td {
-    /* Paragraphs */
-    /* Links */
-    /* Buttons */
-    /* Lists */
-    /* Images */
-  }
-  .cards table.dataview tbody > tr > td:first-child {
-    font-weight: var(--bold-weight);
-    border: none;
-  }
-  .cards table.dataview tbody > tr > td:first-child a {
-    display: block;
-  }
-  .cards table.dataview tbody > tr > td:last-child {
-    border: none;
-  }
-  .cards table.dataview tbody > tr > td:not(:first-child) {
-    font-size: calc(var(--table-text-size) * 0.9);
-    color: var(--text-muted);
-  }
-  .cards table.dataview tbody > tr > td > * {
-    padding: calc(var(--cards-padding) / 3) 0;
-  }
-  .cards table.dataview tbody > tr > td:not(:last-child):not(:first-child) {
-    padding: 4px 0;
-    border-bottom: 1px solid var(--background-modifier-border);
-    width: calc(100% - var(--cards-padding));
-    margin: 0 calc(var(--cards-padding) / 2);
-  }
-  .cards table.dataview tbody > tr > td a {
-    text-decoration: none;
-  }
-  .cards table.dataview tbody > tr > td > button {
-    width: 100%;
-    margin: calc(var(--cards-padding) / 2) 0;
-  }
-  .cards table.dataview tbody > tr > td:last-child > button {
-    margin-bottom: calc(var(--cards-padding) / 6);
-  }
-  .cards table.dataview tbody > tr > td > ul {
-    width: 100%;
-    padding: 0.25em 0 !important;
-    margin: 0 auto !important;
-  }
-  .cards table.dataview tbody > tr > td:has(img) {
-    padding: 0 !important;
-    background-color: var(--background-secondary);
-    display: block;
-    margin: 0;
-    width: 100%;
-  }
-  .cards table.dataview tbody > tr > td img {
-    aspect-ratio: var(--cards-aspect-ratio);
-    width: 100%;
-    object-fit: var(--cards-image-fit);
-    max-height: var(--cards-image-height);
-    background-color: var(--background-secondary);
-    vertical-align: bottom;
-  }
-  
-  .markdown-source-view.mod-cm6.cards .dataview.table-view-table > tbody > tr > td,
-  .trim-cols .cards table.dataview tbody > tr > td {
-    white-space: normal;
-  }
-  
-  /*
-  .cards,
-  .markdown-source-view.mod-cm6.cards {
-  .dataview.table-view-table > tbody > tr > td,
-  table.dataview tbody > tr > td {
-      border-bottom: none;
-      padding: 0!important;
-      line-height: 1.2;
-      width: calc(100% - var(--cards-padding));
-      margin: 0 auto;
-      overflow: visible !important;
-      max-width: 100%;
-      display: flex;
-  }
-  }*/
-  .links-int-on .cards table {
-    --link-decoration: none;
-  }
-  
-  /* Block button */
-  .markdown-source-view.mod-cm6.cards .edit-block-button {
-    top: -1px;
-    right: 28px;
-    opacity: 1;
-  }
-  
-  /* ------------------- */
-  /* Sorting menu */
-  .cards.table-100 table.dataview thead > tr,
-  .table-100 .cards table.dataview thead > tr {
-    right: 0.75rem;
-  }
-  
-  .table-100 .cards table.dataview thead:before,
-  .cards.table-100 table.dataview thead:before {
-    margin-right: 0.75rem;
-  }
-  
-  .cards table.dataview thead {
-    user-select: none;
-    width: 180px;
-    display: block;
-    float: right;
-    position: relative;
-    text-align: right;
-    height: 24px;
-    padding-bottom: 0px;
-  }
-  .cards table.dataview thead:hover:after {
-    background-color: var(--background-modifier-hover);
-  }
-  .cards table.dataview thead:hover:before {
-    background-color: var(--text-muted);
-  }
-  .cards table.dataview thead:after,
-  .cards table.dataview thead:before {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 10px;
-    height: 16px;
-    cursor: var(--cursor);
-    text-align: right;
-    padding: var(--size-4-1) var(--size-4-2);
-    margin-bottom: 2px;
-    border-radius: var(--radius-s);
-    font-weight: 500;
-    font-size: var(--font-adaptive-small);
-  }
-  .cards table.dataview thead:before {
-    background-color: var(--text-faint);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 16px;
-    -webkit-mask-position: center center;
-    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 100"><path fill="currentColor" d="M49.792 33.125l-5.892 5.892L33.333 28.45V83.333H25V28.45L14.438 39.017L8.542 33.125L29.167 12.5l20.625 20.625zm41.667 33.75L70.833 87.5l-20.625 -20.625l5.892 -5.892l10.571 10.567L66.667 16.667h8.333v54.883l10.567 -10.567l5.892 5.892z"></path></svg>');
-  }
-  .cards table.dataview thead > tr {
-    top: -1px;
-    position: absolute;
-    display: none;
-    z-index: 9;
-    border: 1px solid var(--background-modifier-border-hover);
-    background-color: var(--background-secondary);
-    box-shadow: var(--shadow-s);
-    padding: 6px;
-    border-radius: var(--radius-m);
-    flex-direction: column;
-    margin: 24px 0 0 0;
-    width: 100%;
-  }
-  .cards table.dataview thead:hover > tr {
-    display: flex;
-    height: auto;
-  }
-  .cards table.dataview thead > tr > th {
-    display: block;
-    padding: 3px 30px 3px 6px !important;
-    border-radius: var(--radius-s);
-    width: 100%;
-    font-weight: 400;
-    color: var(--text-normal);
-    cursor: var(--cursor);
-    border: none;
-    font-size: var(--font-ui-small);
-  }
-  .cards table.dataview thead > tr > th[sortable-style=sortable-asc],
-  .cards table.dataview thead > tr > th[sortable-style=sortable-desc] {
-    color: var(--text-normal);
-  }
-  .cards table.dataview thead > tr > th:hover {
-    color: var(--text-normal);
-    background-color: var(--background-modifier-hover);
-  }
-  
-  /* ------------------- */
-  /* Card lists */
-  .list-cards.markdown-preview-view .list-bullet,
-  .list-cards.markdown-preview-view .list-collapse-indicator, .list-cards.markdown-preview-view.markdown-rendered.show-indentation-guide li > ul::before {
-    display: none;
-  }
-  .list-cards.markdown-preview-view div > ul {
-    display: grid;
-    gap: 0.75rem;
-    grid-template-columns: var(--cards-columns);
-    padding: 0;
-    line-height: var(--line-height-tight);
-  }
-  .list-cards.markdown-preview-view div > ul .contains-task-list {
-    padding-inline-start: calc(var(--cards-padding) * 1.5);
-  }
-  .list-cards.markdown-preview-view div > ul > li {
-    background-color: var(--cards-background);
-    padding: calc(var(--cards-padding) / 2);
-    border-radius: var(--radius-s);
-    border: var(--cards-border-width) solid var(--background-modifier-border);
-    overflow: hidden;
-  }
-  .list-cards.markdown-preview-view div > ul .image-embed {
-    padding: 0;
-    display: block;
-    background-color: var(--background-secondary);
-    border-radius: var(--image-radius);
-  }
-  .list-cards.markdown-preview-view div > ul .image-embed img {
-    aspect-ratio: var(--cards-aspect-ratio);
-    object-fit: var(--cards-image-fit);
-    max-height: var(--cards-image-height);
-    background-color: var(--background-secondary);
-    vertical-align: bottom;
-  }
-  .list-cards.markdown-preview-view div > ul > li > a {
-    --link-decoration: none;
-    --link-external-decoration: none;
-    font-weight: var(--bold-weight);
-  }
-  .list-cards.markdown-preview-view div ul > li:hover {
-    border-color: var(--background-modifier-border-hover);
-  }
-  .list-cards.markdown-preview-view div ul ul {
-    display: block;
-    width: 100%;
-    color: var(--text-muted);
-    font-size: var(--font-smallest);
-    margin: calc(var(--cards-padding) / -4) 0;
-    padding: calc(var(--cards-padding) / 2) 0;
-  }
-  .list-cards.markdown-preview-view div ul ul ul {
-    padding-bottom: calc(var(--cards-padding) / 4);
-  }
-  .list-cards.markdown-preview-view div ul ul > li {
-    display: block;
-  }
-  
-  /* ------------------- */
-  /* Helper classes */
-  .cards.cards-16-9,
-  .list-cards.cards-16-9 {
-    --cards-aspect-ratio: 16/9;
-  }
-  .cards.cards-1-1,
-  .list-cards.cards-1-1 {
-    --cards-aspect-ratio: 1/1;
-  }
-  .cards.cards-2-1,
-  .list-cards.cards-2-1 {
-    --cards-aspect-ratio: 2/1;
-  }
-  .cards.cards-2-3,
-  .list-cards.cards-2-3 {
-    --cards-aspect-ratio: 2/3;
-  }
-  .cards.cards-cols-1,
-  .list-cards.cards-cols-1 {
-    --cards-columns: repeat(1, minmax(0, 1fr));
-  }
-  .cards.cards-cols-2,
-  .list-cards.cards-cols-2 {
-    --cards-columns: repeat(2, minmax(0, 1fr));
-  }
-  .cards.cards-cover,
-  .list-cards.cards-cover {
-    --cards-image-fit: cover;
-  }
-  .cards.cards-align-bottom table.dataview tbody > tr > td:last-child,
-  .list-cards.cards-align-bottom table.dataview tbody > tr > td:last-child {
-    margin-top: auto;
-  }
-  
-  @media (max-width: 400pt) {
-    .cards table.dataview tbody > tr > td:not(:first-child) {
-      font-size: 80%;
-    }
-  }
-  @media (min-width: 400pt) {
-    .cards-cols-3 {
-      --cards-columns: repeat(3, minmax(0, 1fr));
-    }
-    .cards-cols-4 {
-      --cards-columns: repeat(4, minmax(0, 1fr));
-    }
-    .cards-cols-5 {
-      --cards-columns: repeat(5, minmax(0, 1fr));
-    }
-    .cards-cols-6 {
-      --cards-columns: repeat(6, minmax(0, 1fr));
-    }
-    .cards-cols-7 {
-      --cards-columns: repeat(7, minmax(0, 1fr));
-    }
-    .cards-cols-8 {
-      --cards-columns: repeat(8, minmax(0, 1fr));
-    }
-  }
+}
+/*-Image Sizing-*/
+/*Fit image within bounds WITHOUT stretching*/
+img:is([alt*=cover], [alt*=cvr]),
+.image-embed:is([src*="#cover"], [src*="#cvr"]),
+span.image-embed:is([src*="#cover"], [src*="#cvr"]) img {
+  object-fit: cover;
+}
+
+img[alt][alt]:not([alt*=relative])[alt*=hmicro] {
+  height: var(--micro);
+}
+img[alt][alt]:not([alt*=relative])[alt*=htiny] {
+  height: var(--tiny);
+}
+img[alt][alt]:not([alt*=relative])[alt*=hsmall] {
+  height: var(--small);
+}
+img[alt][alt]:not([alt*=relative])[alt*=hs-med] {
+  height: var(--small-med);
+}
+img[alt][alt]:not([alt*=relative])[alt*=hm-sm] {
+  height: var(--med-small);
+}
+img[alt][alt]:not([alt*=relative])[alt*=hmed] {
+  height: var(--medium);
+}
+img[alt][alt]:not([alt*=relative])[alt*=hm-tl] {
+  height: var(--med-tall);
+}
+img[alt][alt]:not([alt*=relative])[alt*=htall] {
+  height: var(--tall);
+}
+img[alt][alt]:not([alt*=relative])[alt*=hfull] {
+  height: 100%;
+}
+img[alt][alt]:not([alt*=relative])[alt*=wmicro] {
+  width: var(--micro);
+}
+img[alt][alt]:not([alt*=relative])[alt*=wtiny] {
+  width: var(--tiny);
+}
+img[alt][alt]:not([alt*=relative])[alt*=wsmall] {
+  width: var(--small);
+}
+img[alt][alt]:not([alt*=relative])[alt*=ws-med] {
+  width: var(--small-med);
+}
+img[alt][alt]:not([alt*=relative])[alt*=wm-sm] {
+  width: var(--med-small);
+}
+img[alt][alt]:not([alt*=relative])[alt*=wmed] {
+  width: var(--medium);
+}
+img[alt][alt]:not([alt*=relative])[alt*=wm-tl] {
+  width: var(--med-tall);
+}
+img[alt][alt]:not([alt*=relative])[alt*=wtall] {
+  width: var(--tall);
+}
+img[alt][alt]:not([alt*=relative])[alt*=wfull] {
+  width: 100%;
+}
+
+.image-embed[alt][alt*=relative],
+div:not(.image-embed) > img[alt][alt*=relative] {
+  --micro: 10%;
+  --tiny: 20%;
+  --small: 30%;
+  --small-med: 40%;
+  --med-small: 50%;
+  --medium: 60%;
+  --med-tall: 70%;
+  --tall: 85%;
+}
+.image-embed[alt][alt*=relative][alt*=wmicro],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=wmicro] {
+  width: var(--micro);
+}
+.image-embed[alt][alt*=relative][alt*=wtiny],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=wtiny] {
+  width: var(--tiny);
+}
+.image-embed[alt][alt*=relative][alt*=wsmall],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=wsmall] {
+  width: var(--small);
+}
+.image-embed[alt][alt*=relative][alt*=ws-med],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=ws-med] {
+  width: var(--small-med);
+}
+.image-embed[alt][alt*=relative][alt*=wm-sm],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=wm-sm] {
+  width: var(--med-small);
+}
+.image-embed[alt][alt*=relative][alt*=wmed],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=wmed] {
+  width: var(--medium);
+}
+.image-embed[alt][alt*=relative][alt*=wm-tl],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=wm-tl] {
+  width: var(--med-tall);
+}
+.image-embed[alt][alt*=relative][alt*=wtall],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=wtall] {
+  width: var(--tall);
+}
+.image-embed[alt][alt*=relative][alt*=hmicro],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=hmicro] {
+  width: var(--micro);
+}
+.image-embed[alt][alt*=relative][alt*=htiny],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=htiny] {
+  width: var(--tiny);
+}
+.image-embed[alt][alt*=relative][alt*=hsmall],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=hsmall] {
+  width: var(--small);
+}
+.image-embed[alt][alt*=relative][alt*=hs-med],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=hs-med] {
+  width: var(--small-med);
+}
+.image-embed[alt][alt*=relative][alt*=hm-sm],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=hm-sm] {
+  width: var(--med-small);
+}
+.image-embed[alt][alt*=relative][alt*=hmed],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=hmed] {
+  width: var(--medium);
+}
+.image-embed[alt][alt*=relative][alt*=hm-tl],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=hm-tl] {
+  width: var(--med-tall);
+}
+.image-embed[alt][alt*=relative][alt*=htall],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=htall] {
+  width: var(--tall);
+}
+.image-embed[alt][alt*=relative][alt*=hfull],
+div:not(.image-embed) > img[alt][alt*=relative][alt*=hfull] {
+  width: 100%;
+}
+
+.image-embed[alt][alt*=relative],
+div:not(.image-embed) > img[alt][alt*=relative] {
+  display: block;
+  margin: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/*Height*/
+/*Image Locations*/
+/*Center Image*/
+.img-adj-center.img-adj-center img,
+img:is([alt*=ctr], [alt*=center]) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-adj-center.img-adj-center .is-live-preview img {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/*Left & Right*/
+:not(.markdown-rendered) img:is([alt*=left], [alt*=locl]), :not(.markdown-rendered) img[src*="#locl"] img,
+:not(.markdown-rendered) .image-embed:is([alt*=left], [alt*=locl]),
+:not(.markdown-rendered) .image-embed[src*="#locl"] img {
+  float: left;
+  margin-right: 2%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+:not(.markdown-rendered) img:is([alt*=right], [alt*=locr]), :not(.markdown-rendered) img[src*="#locr"] img,
+:not(.markdown-rendered) .image-embed:is([alt*=right], [alt*=locr]),
+:not(.markdown-rendered) .image-embed[src*="#locr"] img {
+  float: right;
+  margin-left: 2%;
+  margin-bottom: 0px;
+}
+
+/*--Image Position--*/
+img[alt*="p+"], .image-embed[src*="#p+"] img {
+  object-fit: cover;
+}
+
+/*Inner Image*/
+img[alt*="p+c"], .image-embed[src*="#p+c"] img {
+  object-position: center;
+}
+
+img[alt*="p+t"], .image-embed[src*="#p+t"] img {
+  object-position: top;
+}
+
+img[alt*="p+b"], .image-embed[src*="#p+b"] img {
+  object-position: bottom;
+}
+
+img[alt*="p+l"], .image-embed[src*="#p+l"] img {
+  object-position: left;
+}
+
+img[alt*="p+r"], .image-embed[src*="#p+r"] img {
+  object-position: right;
+}
+
+img[alt*="p+cl"], .image-embed[src*="#p+cl"] img {
+  object-position: 15%;
+}
+
+img[alt*="p+ccl"], .image-embed[src*="#p+ccl"] img {
+  object-position: 25%;
+}
+
+img[alt*="p+cr"], .image-embed[src*="#p+cr"] img {
+  object-position: 60%;
+}
+
+img[alt*="p+ccr"], .image-embed[src*="#p+ccr"] img {
+  object-position: 75%;
+}
+
+img[alt*="p+tc"], .image-embed[src*="#p+tc"] img {
+  object-position: 50% 10%;
+}
+
+img[alt*="p+tcc"], .image-embed[src*="#p+tcc"] img {
+  object-position: 50% 20%;
+}
+
+img[alt*="p+cct"], .image-embed[src*="#p+cct"] img {
+  object-position: 50% 30%;
+}
+
+img[alt*="p+ct"], .image-embed[src*="#p+ct"] img {
+  object-position: 50% 40%;
+}
+
+img[alt*="p+cb"], .image-embed[src*="#p+cb"] img {
+  object-position: 50% 60%;
+}
+
+img[alt*="p+ccb"], .image-embed[src*="#p+ccb"] img {
+  object-position: 50% 70%;
+}
+
+img[alt*="p+bc"], .image-embed[src*="#p+bc"] img {
+  object-position: 50% 80%;
+}
+
+img[alt*="p+bcc"], .image-embed[src*="#p+bcc"] img {
+  object-position: 50% 90%;
+}
+
+/*Invert Colors*/
+.theme-dark img[alt*=invertb], .theme-dark .image-embed[src*="#invertb"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+.theme-dark img[alt*=invertbc],
+.theme-dark .image-embed[src*="#invertbc"] {
+  filter: invert(1) hue-rotate(180deg) contrast(1.5);
+}
+
+.theme-light img[alt*=invertw], .theme-light .image-embed[src*="#invertw"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+.theme-light img[alt*=invertwc], .theme-light .image-embed[src*="#invertwc"] {
+  filter: invert(1) hue-rotate(180deg) contrast(1.45);
+}
+
+img:is([alt*=flip-x],
+[alt*=flip-horizontal]) {
+  transform: scale(-1, 1);
+}
+img:is([alt*=flip-y],
+[alt*=flip-vertical]) {
+  transform: scale(1, -1);
+}
+img:is([alt*=flip-xy],
+[alt*=flip-vertical-horizontal]) {
+  transform: scale(-1, -1);
+}
+
+/*Fit image within bounds WITHOUT stretching*/
+img[alt*=cover],
+img:is([alt*=cover], [alt*=cvr]),
+.image-embed:is([src*="#cover"], [src*="#cvr"]),
+span.image-embed:is([src*="#cover"], [src*="#cvr"]) img {
+  object-fit: cover;
+}
+
+/*Fix Float Issues*/
+:is(img, .image-embed)[alt*=clear],
+.image-embed[src*="#clear"] {
+  clear: both;
+}
+
+img[alt*=unclr],
+.image-embed[src*="#unclr"] {
+  clear: none !important;
+}
+
+:not(.lp-img-float) .is-live-preview img:is([alt*=right], [alt*=locr]), :not(.lp-img-float) .is-live-preview img:is([alt*=left], [alt*=locl]), :not(.lp-img-float) .is-live-preview .image-embed:is([alt*=right], [alt*=locr]), :not(.lp-img-float) .is-live-preview .image-embed:is([alt*=left], [alt*=locl]) {
+  float: unset;
+}
+
+img:is([alt~=lp], [alt~=live-preview]):is([alt*=right], [alt*=locr]),
+.image-embed:is([alt~=lp], [alt~=live-preview]):is([alt*=right], [alt*=locr]) {
+  float: right !important;
+}
+img:is([alt~=lp], [alt~=live-preview]):is([alt*=left], [alt*=locl]),
+.image-embed:is([alt~=lp], [alt~=live-preview]):is([alt*=left], [alt*=locl]) {
+  float: left !important;
+}
+
+.clear-hr {
+  --hr-width: 100%;
+}
+
+.clear-headings :is(h1, h2, h3, h4, h5, h6),
+.clear-heading-1 h1,
+.clear-heading-2 h2,
+.clear-heading-3 h3,
+.clear-heading-4 h4,
+.clear-heading-5 h5,
+.clear-heading-6 h6 {
+  clear: both;
+}
+
+/*Banners*/
+img[alt*=banner],
+.image-embed[alt*=banner] img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 0px;
+  clear: both;
+}
+
+img[alt~=banner],
+.image-embed[alt~=banner] img,
+.image-embed[src*="#banner"] {
+  height: var(--small);
+}
+
+img[alt~="banner+small"],
+.image-embed[alt~="banner+small"] img,
+.image-embed[src*="#banner+small"] {
+  height: var(--tiny);
+}
+
+img[alt~="banner+tall"],
+.image-embed[alt~="banner+tall"] img,
+.image-embed[src*="#banner+tall"] {
+  height: var(--medium);
+}
+
+:is(img, .internal-embed)[alt*=sban],
+:is(img, .internal-embed)[alt~=sban],
+.internal-embed[src*="#sban"] img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/*Portait*/
+img[alt*=portrait],
+.image-embed[alt*=portrait] img {
+  object-fit: cover;
+}
+
+img[alt~=portrait],
+.image-embed[alt~=portrait] img,
+.image-embed[src~="#portrait"] {
+  height: var(--small-med);
+  width: 40%;
+}
+
+img[alt~="portrait+small"],
+.image-embed[alt~="portrait+small"] img,
+.image-embed[src~="#portrait+small"] {
+  height: var(--small);
+  width: 25%;
+}
+
+img[alt~="portrait+tall"],
+.image-embed[alt~="portrait+tall"] img,
+.image-embed[src~="#portrait+tall"] {
+  height: 500px;
+  width: 50%;
+}
+
+/*Profile*/
+img[alt*=profile],
+.image-embed[alt*=profile] img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+img[alt~=profile],
+.image-embed[alt~=profile] img,
+.image-embed[src*="#profile"] {
+  height: var(--tiny);
+  width: var(--tiny);
+}
+
+img[alt~="profile+medium"],
+.image-embed[alt~="profile+medium"] img,
+.image-embed[src*="#profile+medium"] {
+  height: var(--small);
+  width: var(--small);
+}
+
+img[alt~="profile+tall"],
+.image-embed[alt~="profile+tall"] img,
+.image-embed[src*="#profile+tall"] {
+  height: var(--medium);
+  width: var(--medium);
+}
+
+img[alt~=sprf] {
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+/*Image Shapes*/
+img[alt][alt*=circle] {
+  border-radius: 50%;
+}
+
+img[alt~=square],
+.image-embed[alt~=square] img {
+  border-radius: 0;
+}
+
+img[alt~=border],
+.internal-embed[alt~=border] img {
+  border: var(--image-border-width) solid var(--image-border-color);
+  padding: var(--image-border-padding);
+  background: var(--image-border-background);
+}
+
+.image-captions .image-embed::after,
+.image-embed[src*="#cap"]::after {
+  content: attr(alt);
+  color: var(--inactive, var(--faint-text));
+  display: block;
+  text-align: center;
+}
+
+.mobile-image-viewer img[alt][alt][alt] {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/*@settings
+name: Image Adjustments
+id: image-adjustments
+settings:
+    - 
+        id: info-text-SlRvb-img-adj
+        type: info-text
+        title: Image Adjustments by SlRvb
+        description: "[Image Adjustments Snippet How-To Guide](https://publish.obsidian.md/slrvb-docs/ITS+Theme/Image+Adjustments)"
+        markdown: true
+    -
+        title: List Overlap Fix
+        description: Fix list bullets overlapping with images
+        id: img-adj-list
+        type: class-toggle
+        default: true
+    -
+        title: Clear Images
+        description: Push image under/over headings or horizontal lines
+        id: img-adj-clears
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        title: Horizontal Lines
+        description: Push image under/over any horizontal lines
+        id: clear-hr
+        type: class-toggle
+    -
+        title: Headings
+        description: Push image under/over all headings 1-6
+        id: clear-headings
+        type: class-toggle
+    -
+        title: Heading Specific
+        description: Push image under/over some headings and not others
+        id: img-adj-clears-headings
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        title: Header 1
+        id: clear-heading-1
+        type: class-toggle
+    -
+        title: Header 2
+        id: clear-heading-2
+        type: class-toggle
+    -
+        title: Header 3
+        id: clear-heading-3
+        type: class-toggle
+    -
+        title: Header 4
+        id: clear-heading-4
+        type: class-toggle
+    -
+        title: Header 5
+        id: clear-heading-5
+        type: class-toggle
+    -
+        title: Header 6
+        id: clear-heading-6
+        type: class-toggle
+*/
+/*Theme fixes*/
+.img-adj-list :is(ul, ol) {
+  display: flow-root;
+}
