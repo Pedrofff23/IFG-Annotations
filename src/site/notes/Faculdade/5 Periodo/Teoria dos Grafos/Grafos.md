@@ -5,6 +5,7 @@
 
 ## Ementa
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos\|Conceitos Básicos]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos\|Tipos de Grafos]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Isomorfismo\|Isomorfismo]] , Matrizes de Adjacência e Incidência, Caminhos e Ciclos; 
 - Cortes de Arestas, Cortes de Vértices; 
 - Conectividade: Conectividade de Vértices e Arestas; 
