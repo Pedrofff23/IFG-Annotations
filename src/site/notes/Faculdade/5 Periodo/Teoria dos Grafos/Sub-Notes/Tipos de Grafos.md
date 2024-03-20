@@ -89,3 +89,6 @@ Exemplo:
 > Para encontrar o complemento de um grafo, você preenche todas as arestas que faltavam para obter um grafo completo, e remove todas as arestas que já estavam lá.
 
 ## Grafo auto-complementar
+-  Um grafo simples é auto-complementar se é [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Isomorfismo\|isomorfo]] ao seu complemento. 
+  
+![](https://i.imgur.com/2BHnuHm.png)
