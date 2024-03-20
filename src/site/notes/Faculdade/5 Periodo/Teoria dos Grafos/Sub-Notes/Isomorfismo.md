@@ -10,6 +10,6 @@
 
 ![](https://i.imgur.com/nhlY9cO.png)
 
-- Exemplo de um grafo não isomorfo:
+- Exemplo de um grafo não isomorfo (diferem em ciclos):
 
 ![](https://i.imgur.com/U2NXQF9.png)
