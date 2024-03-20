@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["root, PDI"],"permalink":"/Faculdade/5 Periodo/Processamento Digital/PDI/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Processamento Digital/PDI/","tags":["root, PDI"]}
 ---
 
 Índice das Notas
