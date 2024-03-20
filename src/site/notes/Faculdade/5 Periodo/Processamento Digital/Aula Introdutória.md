@@ -1,5 +1,5 @@
 ---
-{"tags":["PDI"],"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Processamento Digital/Aula Introdutória/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Processamento Digital/Aula Introdutória/","tags":["PDI"]}
 ---
 
 # Avaliação
