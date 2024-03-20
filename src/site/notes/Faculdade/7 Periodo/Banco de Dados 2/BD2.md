@@ -14,5 +14,3 @@
 
 ### BD 2
 - [[NOSQL\|NOSQL]]
-
-![LULU.jpeg|left|200](/img/user/LULU.jpeg) Respeite a Lendaria LULU
