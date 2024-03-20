@@ -13,9 +13,3 @@
 - Coloração de Vértices e de Arestas; 
 - Planaridade;
 - Análise de complexidade nos algoritmos de  Representação e Caminhos.
-
-
-![LULU.jpeg|left|200](/img/user/LULU.jpeg) egefiasidashdiuashduihasdhisahdihsaindiasnidnandsadiausasssssssssssss
-asdsadasd
-as
-dasdasdasd
