@@ -2,11 +2,15 @@
 {"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos/","tags":["grafos"]}
 ---
 
-## Tópicos
+### Tópicos
 1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definições e Exemplos\|Definições e Exemplos]]
 	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Arestas\|Arestas]]
-	2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definição de grau\|Definição de grau]]
+	2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Graus\|Graus]]
+		1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definição de grau\|Definição de grau]]
+		2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Grau de Entrada ou Saída\|Grau de Entrada ou Saída]]
+		3. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Soma dos graus\|Soma dos graus]]
 	3. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Ordem e Tamanho\|Ordem e Tamanho]]
+	4. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Direcionado ou Orientado\|Direcionado ou Orientado]]
 2. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teoremas\|Teoremas]]
 	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Teorema 1\|Teorema 1]]
 ---
@@ -31,7 +35,9 @@
 - **Arestas paralelas**: duas arestas com os mesmos extremos.
 ![](https://i.imgur.com/8t3gPix.png)
 
-### Definição de grau
+### Graus
+
+#### Definição de grau
 - **Definição:** O grau de um vértice v, denotado por d(v), é o número de arestas incidentes a esse vértice v .
 	- Grafos com apenas um vértice são ditos *triviais*.
 	- Um grafo é *simples* se não possuir laços e arestas múltiplas. 
@@ -72,8 +78,36 @@ $$
 <li>Sequência de grau do grafo (iii):  (1, 3, 6, 8)</li>
 </ol>
 
-### Ordem e Tamanho
 
+#### Grau de Entrada ou Saída
+- **Grau de entrada**: o vértice é denotado **d⁻(v)⁺**.
+	- O vértice é chamado de **fonte** (é a origem de suas arestas incidentes).
+- **Grau de saída**: o vértice é denotado **d⁺(v)**.
+	- O vértice é chamado de **sumidouro**.
+	
+![](https://i.imgur.com/2iP2jWq.png)
+
+#### Soma dos graus
+- O grafo é chamado de dígrafo balanceado se:
+
+$$
+d⁻(v) = d⁺(v)
+$$
+
+- Exemplo:
+![](https://i.imgur.com/JUvcAS8.png)
+
+| d⁻(v)     | d⁺(v)     |
+| --------- | --------- |
+| d⁻(a) = 2 | d⁺(v) = 2 |
+| d⁻(b) = 2 | d⁺(v) = 2 |
+| d⁻(c) = 1 | d⁺(v) = 3 |
+| d⁻(d) = 1 | d⁺(v) = 0 |
+| total = 6 | total = 6 | 
+
+
+### Ordem, Tamanho e Rótulo
+- Um grafo é dito rotulado se existem atribuições associadas a suas arestas ou vértices
 - Denomina-se **ordem** de G a cardinalidade do seu conjunto de vértices. |V|= n.
 - Denomina-se **tamanho** de G a cardinalidade do seu conjunto de arestas. |E|= m.
 ![](https://i.imgur.com/0Hdmh4R.png)
@@ -81,7 +115,21 @@ $$
 Grafo (1) ordem  5       e tamanho     8   . 
 Grafo (2) ordem    4     e tamanho     4    .
 
+### Direcionado ou Orientado
+**Definição**: Um grafo é dito direcionado ou orientado ou, simplesmente,  *dígrafo* quando o *sentido das ligações entre os vértices é importante*. Nesse caso, as **arestas** possuem um sentido marcado por uma seta e recebem o nome de **arcos**.
 
+```mermaid
+flowchart LR
+
+a --> b
+b --> a
+a --> c
+c--> d
+d--->b
+c-->e
+e-->a
+
+```
 
 ## Teoremas
 ### Teorema 1
