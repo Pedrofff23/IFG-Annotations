@@ -1,7 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos/","dgShowToc":true}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos/"}
 ---
 
+## Tópicos
+
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo simples\|Simples]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Completo\|Completo]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo k-regular\|K-regular]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Bipartido\|Bipartido]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Bipartido Completo\|Bipartido Completo]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Cubo-n\|Cubo-n]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Ciclo\|Ciclo]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Roda\|Roda]] 
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Multigrafo\|Multigrafo]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#PseudoGrafo\|PseudoGrafo]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Imersível\|Imersível]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Complementar\|Complementar]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Auto-complementar\|Auto-complementar]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Conexo\|Grafo Conexo]]
+  
 ## Grafo simples
 - Por meio desta conta podemos calcular a *quantidade de arestas* que um **grafo simples** com **N** nós pode ter:
 $$
@@ -56,7 +73,7 @@ Exemplos:
 
 ![](https://i.imgur.com/WpjG2G7.png)
 
-## Grafo roda
+## Grafo Roda
 - Um grafo roda, denominado Wₙ, é um grafo simples com n + 1 vértices que é obtido acrescentado um vértice ao grafo ciclo Cₙ, n ≥ 3, e conectando este novo vértice a cada um dos n vértices de Cₙ.
 
 ![](https://i.imgur.com/7nJRdvA.png)
@@ -71,7 +88,7 @@ Exemplos:
 
 **![center|400](https://lh7-us.googleusercontent.com/tZa115TJasduS-E03AW3rZWtnuq24EA2xjY2F3oR08eRolZhR14V6OMK18WTTENqVAD8AUrkTDyKZLxOhJQfYO3eCWrFrNibMCgRIppPHf92yMniLv9vyunykrtX7ZRHGefqaeribs_Ul_jd3VAi_8aRee5qxOUR=s2048)**
 
-## Grafo imersível
+## Grafo Imersível
 
 - Um grafo é imersível em uma superfície S se puder ser representado geograficamente em S de tal forma que arestas se cruzem nas extremidades (vértices).
 
@@ -79,7 +96,7 @@ Um *grafo planar* é um grafo que é *imersível no plano*.
 
 ➜ As conexões de uma placa de circuito impresso devem ser representadas por um grafo planar.
 
-## Grafo complementar
+## Grafo Complementar
 - Seja G um grafo simples.O grafo complementar de G, que denotaremos como F, é definido por V(F) = V(G) e {u,v} e pertencente a E(F) se e somente se {u,v} não pertencer a E(G).
 
 Exemplo:
@@ -88,7 +105,20 @@ Exemplo:
 > [!hint] Dica
 > Para encontrar o complemento de um grafo, você preenche todas as arestas que faltavam para obter um grafo completo, e remove todas as arestas que já estavam lá.
 
-## Grafo auto-complementar
+## Grafo Auto-complementar
 -  Um grafo simples é auto-complementar se é [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Isomorfismo\|isomorfo]] ao seu complemento. 
   
 ![](https://i.imgur.com/2BHnuHm.png)
+
+## Grafo Conexo
+- Um grafo é **conexo** se existe um **caminho** entre *qualquer par de vertices* do grafo.
+- Um grafo com apenas um componente é um grafo conectado.
+
+![](https://i.imgur.com/1nZCHXp.png)
+
+### Componentes Conexos
+- Os componentes conexos de um grafo são os **subgrafos conexos** maximais deste grafo.
+- Exemplo: Este gráfico possui 2 componentes conexos.
+
+![](https://i.imgur.com/H9wCORq.png)
+
