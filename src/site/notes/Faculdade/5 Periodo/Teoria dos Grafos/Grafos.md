@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","tags":["root","grafos"]}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","contentClasses":"dashboard","tags":["root","grafos"]}
 ---
 
 
 ## Ementa
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos\|Conceitos Básicos]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos\|Tipos de Grafos]]
-- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Isomorfismo\|Isomorfismo]] , Matrizes de Adjacência e Incidência, Caminhos e Ciclos; 
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Isomorfismo\|Isomorfismo]] , [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos\|Algoritmos em Grafos]], [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Caminhos e Ciclos\|Caminhos e Ciclos]]; 
 - Cortes de Arestas, Cortes de Vértices; 
 - Conectividade: Conectividade de Vértices e Arestas; 
 - Caminhos e Ciclos Eulerianos e Hamiltonianos; 
@@ -14,3 +14,4 @@
 - Coloração de Vértices e de Arestas; 
 - Planaridade;
 - Análise de complexidade nos algoritmos de  Representação e Caminhos.
+
