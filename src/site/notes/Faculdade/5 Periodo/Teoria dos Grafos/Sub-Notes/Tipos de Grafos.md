@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos/"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos/","created":"2024-03-20T16:23:00.969-03:00"}
 ---
 
 ## Tópicos
