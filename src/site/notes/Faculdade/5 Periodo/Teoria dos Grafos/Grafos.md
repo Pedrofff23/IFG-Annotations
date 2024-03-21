@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","contentClasses":"dashboard","tags":["root","grafos"],"created":"2024-02-21T08:40:52.458-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","tags":["root","grafos"],"created":"2024-02-21T08:40:52.458-03:00"}
 ---
 
 
@@ -14,4 +14,6 @@
 - Coloração de Vértices e de Arestas; 
 - Planaridade;
 - Análise de complexidade nos algoritmos de  Representação e Caminhos.
+
+
 
