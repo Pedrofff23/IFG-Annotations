@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Libras/Libras/","tags":["root"]}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Libras/Libras/","tags":["root"],"created":"2024-02-22T09:58:45.059-03:00"}
 ---
 
 
