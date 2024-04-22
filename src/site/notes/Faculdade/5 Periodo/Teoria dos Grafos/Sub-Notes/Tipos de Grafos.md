@@ -18,7 +18,8 @@
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Complementar\|Complementar]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Auto-complementar\|Auto-complementar]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo Conexo\|Grafo Conexo]]
-  
+
+
 ## Grafo simples
 - Por meio desta conta podemos calcular a *quantidade de arestas* que um **grafo simples** com **N** nós pode ter:
 $$
