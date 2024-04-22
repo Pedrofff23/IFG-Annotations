@@ -3,11 +3,14 @@
 ---
 
 
-## Tópicos
-- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Incidência\|Matriz de Incidência]]
-- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Adjacência\|Matriz de Adjacência]]
+# Tópicos
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Representação Computacional\|Representação Computacional]]
+	- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Incidência\|Matriz de Incidência]]
+	- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Adjacência\|Matriz de Adjacência]]
 
-## Matriz de Incidência
+## Representação Computacional
+
+### Matriz de Incidência
 
 - Representação com V (vértices) e E (arestas)
 - Como montar:
@@ -21,7 +24,7 @@
 | v3  | 0   | 0   | 1   | 1   | 0   | 0   | 1   |
 | v4  | 0   | 0   | 0   | 1   | 1   | 2   | 0   | 
 
-## Matriz de Adjacência
+### Matriz de Adjacência
 
 - Representação com apenas V (vértices) 
 
@@ -34,3 +37,5 @@
 | v3  | 1   | 1   | 0   | 1   |
 | v4  | 1   | 0   | 1   | 1   |
 
+## Busca em Largura ou Profundidade
+###
