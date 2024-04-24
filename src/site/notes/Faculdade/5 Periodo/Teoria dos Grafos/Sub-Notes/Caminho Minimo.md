@@ -9,6 +9,6 @@ O *problema do caminho mínimo* consiste em **encontrar** um **caminho de menor 
 
 ```
 # Tópicos
-- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Caminho Minimo#Algoritmo de Dijkstra\|#Algoritmo de Dijkstra]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Caminho Minimo#Algoritmo de Dijkstra\|Algoritmo de Dijkstra]]
 
-## Algoritmo de Dijkstra
+## [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmo de Dijkstra\|Algoritmo de Dijkstra]]
