@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/Our Journey/","tags":["gardenEntry"],"created":"2024-02-21T08:40:52.458-03:00"}
+{"dg-publish":true,"permalink":"/Our Journey/","tags":["gardenEntry"],"created":"2024-06-09T00:27:23.027-03:00"}
 ---
 
 
-_*“Ask yourself if what you’re doing today is getting you closer to where you want to be tomorrow.”*_
+> *_Ask yourself if what you’re doing today is getting you closer to where you want to be tomorrow._* \- Paulo Coelho
 
 # Matérias da Facu
 
