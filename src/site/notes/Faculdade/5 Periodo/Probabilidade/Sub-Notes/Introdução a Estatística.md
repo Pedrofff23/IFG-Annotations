@@ -35,15 +35,12 @@
 
 
 
-### TIPOS DE VARIÁVEIS[^1]:
+### TIPOS DE VARIÁVEIS:
  * **QUALITATIVA**:
 	- *NOMINAL*: Nome, texto, cidade, região, (Texto sem padrão de resposta);
 	- *ORDINAL*: Sentido de *ORDEM*, Ex: (1ºano, 2ºAno, etc...);
 
-*  **QUANTITATIVA[^2]**:
+*  **QUANTITATIVA**:
 	 - *CONTINUA*: Dados que crescem de forma continua, que pode ter uma precisão infinita. Ex: (altura, peso, dinheiro);
 	 - *DISCRETA*: Variáveis numericas que podem ser finitas ou não, normalmente tem precisão finita, normalmente estabelecida na ordem dos números inteiros. Ex: (filhos, eletrônicos, ida
 
-[^1]: https://delighted.com/pt-br/blog/qualitative-vs-quantitative-research#:~:text=A%20pesquisa%20qualitativa%20e%20quantitativa,para%20a%20coleta%20de%20dados.
-
-[^2]: https://www.questionpro.com/blog/pt-br/diferenca-entre-dados-discretos-e-continuos/
