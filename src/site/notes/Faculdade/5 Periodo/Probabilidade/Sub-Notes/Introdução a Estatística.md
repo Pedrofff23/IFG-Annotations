@@ -1,20 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Introdução a Estatística/","tags":["PB"],"created":"2024-03-25T09:43:32.373-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Introdução a Estatística/","tags":["PB"],"created":"2024-06-26T00:24:10.600-03:00"}
 ---
 
 
 # Introdução a Estatística
 
-
-* Estatística Descritiva: Técnicas para resumir, afim de tirar conclusões a respeito dos dados, a qual temos interesses
-
-
-* Probabilidade: Teoria matemática utilizada para analisar a incerteza oriuda sobre os fenômenos de carácter aleatório
-
-* Inferência Estatística: Estudos de técnicas que possibilitam a extrapolação de uma conclusão sobre uma amostra de dados, ao invés de verificar através da analise da população completa.
-	- POPULAÇÂO: Conjunto de todas as instâncias que desejamos analisar, em viés de uma característica bem definida, ou realizar uma analise sobre as features coletadas;
+- *Áreas:* 
+	* **Estatística Descritiva**: Técnicas para resumir, afim de tirar conclusões a respeito dos dados, a qual temos interesses
 	
-	- AMOSTRA: Parcela pequena da população, a qual desejamos realizar a analise, onde realizamos a analise do objetivo de pesquisa e extrapolar a conclusão obtida para o conjunto completo (População).
+	* **Probabilidade**: Teoria matemática utilizada para analisar a incerteza oriunda sobre os fenômenos de carácter aleatório
+
+	* **Inferência Estatística**: Estudos de técnicas que possibilitam a extrapolação de uma conclusão sobre uma amostra de dados, ao invés de verificar através da analise da população completa.
+
+- *Definições:*
+	- **POPULAÇÃO**: Conjunto de todas as instâncias que desejamos analisar, em viés de uma característica bem definida, ou realizar uma analise sobre as features coletadas;
+	
+	- **AMOSTRA**: Parcela pequena da população, a qual desejamos realizar a analise, onde realizamos a analise do objetivo de pesquisa e extrapolar a conclusão obtida para o conjunto completo (População).
 
 
 
@@ -26,18 +27,22 @@
 
 
 
-DADOS E VARIÁVEIS
-	* DADOS: Qualquer informação que caracteriza uma instância dos dados;
-	* VARIÁVEL: Feature a qual se deseja fazer a analise; 
+#### DADOS E VARIÁVEIS
+* **DADOS**: Qualquer informação que caracteriza uma instância dos dados;
+	* A natureza (ou o tipo) dos dados
+* **VARIÁVEL**: Feature a qual se deseja fazer a analise; 
+	* Constituem uma amostra de uma população
 
 
 
-### TIPOS DE VARIÁVEIS:
- * QUALITATIVA:
-	- NOMINAL: Nome, texto, cidade, região, (Texto sem padrão de resposta);
-	- ORDINAL: Sentido de *ORDEM*, Ex: (1ºano, 2ºAno, etc...);
+### TIPOS DE VARIÁVEIS[^2]:
+ * **QUALITATIVA**:
+	- *NOMINAL*: Nome, texto, cidade, região, (Texto sem padrão de resposta);
+	- *ORDINAL*: Sentido de *ORDEM*, Ex: (1ºano, 2ºAno, etc...);
 
-*  QUANTITATIVA:
-	 - CONTINUA: Dados que crescem de forma continua, que pode ter uma precisão infinita. Ex: (altura, peso, dinheiro);
-	 - DISCRETA: Variáveis numericas que podem ser finitas ou não, normalmente tem precisão finita, normalmente estabelecida na ordem dos números inteiros. Ex: (filhos, eletrônicos, idade);
+*  **QUANTITATIVA[^1]**:
+	 - *CONTINUA*: Dados que crescem de forma continua, que pode ter uma precisão infinita. Ex: (altura, peso, dinheiro);
+	 - *DISCRETA*: Variáveis numericas que podem ser finitas ou não, normalmente tem precisão finita, normalmente estabelecida na ordem dos números inteiros. Ex: (filhos, eletrônicos, ida
 
+[^1]: https://www.questionpro.com/blog/pt-br/diferenca-entre-dados-discretos-e-continuos/
+[^2]: https://delighted.com/pt-br/blog/qualitative-vs-quantitative-research#:~:text=A%20pesquisa%20qualitativa%20e%20quantitativa,para%20a%20coleta%20de%20dados.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Esquema Relacional/","tags":["BD"],"created":"2024-03-06T10:00:05.818-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Esquema Relacional/","tags":["BD"],"created":"2024-06-26T00:24:10.600-03:00"}
 ---
 
 *O modelo relacional representa um banco de dados como um conjunto de
