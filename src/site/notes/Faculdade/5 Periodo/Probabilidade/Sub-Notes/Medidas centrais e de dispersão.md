@@ -41,5 +41,15 @@ $$
 
 ## Moda
 
-- Pegar o valor que mais aparece no analise
+- Pegar o valor que possui a maior frequência.
+- Existem amostras que possuem mais que uma moda, sendo classificadas como *multimodais*
 
+## Medidas centrais para dados agrupados
+
+- Como podemos proceder para obter a média, mediana e moda desse conjunto de dados sendo que **não conhecemos todos os valores** obtidos na amostra?
+- Nesse caso, nada mais natural do que eleger o *ponto médio do intervalo* para este papel.
+
+$$
+\overset{-}x = \frac{1}{2} \sum_{i=1}^\limits{n}n_{i}x_{i}^*
+\qquad ou \qquad \overset{-}x = \sum_{i=1}^\limits{n}f_{i}x_{i}^*
+$$

@@ -20,10 +20,10 @@
 
 
 ## DEFINIÇÕES IMPORTANTES
-	* PARÂMETRO: Caractéristica de uma População;
-	* ESTATÍSTICA: Medida numérica que descreve uma caracteristica;
-	* ESTIMADOR: Combinação de Features de uma amostra, com a finalidade de representar um paramentro de interesse na população;
-	* ESTIMATIVA: Valor resultante do cálculo de um estimador, para se ter um ideia descritiva da caracteristica da amostra;
+* **PARÂMETRO**: Característica de uma População;
+* **ESTATÍSTICA**: Medida numérica que descreve uma característica;
+* **ESTIMADOR**: Combinação de Features de uma amostra, com a finalidade de representar um parâmetro de interesse na população;
+* **ESTIMATIVA**: Valor resultante do cálculo de um estimador, para se ter um ideia descritiva da característica da amostra;
 
 
 
@@ -38,9 +38,9 @@
 ### TIPOS DE VARIÁVEIS:
  * **QUALITATIVA**:
 	- *NOMINAL*: Nome, texto, cidade, região, (Texto sem padrão de resposta);
-	- *ORDINAL*: Sentido de *ORDEM*, Ex: (1ºano, 2ºAno, etc...);
+	- *ORDINAL*: Sentido de *ORDEM*, Ex: (1º ano, 2º ano, etc...);
 
 *  **QUANTITATIVA**:
 	 - *CONTINUA*: Dados que crescem de forma continua, que pode ter uma precisão infinita. Ex: (altura, peso, dinheiro);
-	 - *DISCRETA*: Variáveis numericas que podem ser finitas ou não, normalmente tem precisão finita, normalmente estabelecida na ordem dos números inteiros. Ex: (filhos, eletrônicos, ida
+	 - *DISCRETA*: Variáveis numéricas que podem ser finitas ou não, normalmente tem precisão finita, normalmente estabelecida na ordem dos números inteiros. Ex: (filhos, eletrônicos, ida
 
