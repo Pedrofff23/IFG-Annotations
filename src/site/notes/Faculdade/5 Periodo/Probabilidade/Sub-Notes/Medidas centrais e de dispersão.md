@@ -44,7 +44,7 @@ $$
 - Pegar o valor que possui a maior frequência.
 - Existem amostras que possuem mais que uma moda, sendo classificadas como *multimodais*
 
-## Medidas centrais para dados agrupados
+## Média para dados agrupados
 
 - Como podemos proceder para obter a média, mediana e moda desse conjunto de dados sendo que **não conhecemos todos os valores** obtidos na amostra?
 - Nesse caso, nada mais natural do que eleger o *ponto médio do intervalo* para este papel.
@@ -53,3 +53,29 @@ $$
 \overset{-}x = \frac{1}{2} \sum_{i=1}^\limits{n}n_{i}x_{i}^*
 \qquad ou \qquad \overset{-}x = \sum_{i=1}^\limits{n}f_{i}x_{i}^*
 $$
+- Dessa forma, em cada classe i, tomaremos o ponto médio do intervalo (x ∗ i ) e calculamos a média ponderada
+
+## Mediana para dados agrupados
+$$
+Md = l_{i} + \frac{1}{n_{i}} \left(\frac{n}{2}-N_{a}\right)*h_{i}
+$$
+- a classe **i** é a classe da mediana (obtida verificando o número de elementos da amostra); 
+- **Li** é o limite inferior da classe i; 
+- **Ni** é o número de elementos (frequência) da classe i;
+- **n** é o número de elementos da amostra; 
+- **Na** é a frequência acumulada da classe anterior à classe i; 
+- **hi** é a amplitude da classe i.
+
+## Moda para dados agrupados
+
+$$
+Mo = l_{i} + \frac{h_{i}*f_{p}}{f_{a}+f_{p}'}
+$$
+
+- a classe **i** é a classe modal, isto é, a classe com maior frequência;
+- **i** é o limite inferior da classe i; 
+- **hi** é a amplitude da classe i; 
+- **fa** é a frequência relativa da classe anterior a classe i; 
+- **fp** é a frequência relativa da classe posterior a classe i.
+
+

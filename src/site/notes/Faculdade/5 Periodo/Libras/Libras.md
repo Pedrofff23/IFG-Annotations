@@ -3,6 +3,3 @@
 ---
 
 
-O Professor tá na DIsney
-
-Padrão não vem nas aulas no Horário Certo

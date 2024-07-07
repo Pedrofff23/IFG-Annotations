@@ -6,6 +6,7 @@
 ## Tópicos
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Incidência\|Matriz de Incidência]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Adjacência\|Matriz de Adjacência]]
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Algoritmos de busca em Grafos\|Algoritmos de busca em Grafos]]
 
 ## Matriz de Incidência
 
@@ -33,4 +34,20 @@
 | v2  | 2   | 0   | 1   | 0   |
 | v3  | 1   | 1   | 0   | 1   |
 | v4  | 1   | 0   | 1   | 1   |
+
+# Algoritmos de busca em Grafos
+Vamos descrever dois algoritmos de busca em grafos:
+- **Busca em largura**
+	- *Põe* na fila um vértice qualquer u de G e marque-o como alcançado
+```portugol
+Enquanto fila ≠ ∅ faça
+	* v ← elemento da frente da fila (retire v da fila)
+	* para toda aresta (v,w), tal que w ainda não foi alcançado, marque w como alcançado e põe w na fila.
+```
+- **Busca em profundidade**
+	- *Empilhe* um vértice qualquer u de G e marque-o como alcançado
+	- ```portugol
+		Enquanto pilha ≠ ∅ faça
+		* v ← elemento do topo-da-pilha
+		* se existe aresta (v,w), tal que w ainda não foi alcançado, então marque w como alcançado e empilhe w; senão desempilha v.
 
