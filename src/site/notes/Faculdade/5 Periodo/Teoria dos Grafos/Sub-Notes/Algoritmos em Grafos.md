@@ -39,11 +39,11 @@
 Vamos descrever dois algoritmos de busca em grafos:
 - **Busca em largura**
 	- *Põe* na fila um vértice qualquer u de G e marque-o como alcançado
-```portugol
-Enquanto fila ≠ ∅ faça
-	* v ← elemento da frente da fila (retire v da fila)
-	* para toda aresta (v,w), tal que w ainda não foi alcançado, marque w como alcançado e põe w na fila.
-```
+	- ```portugol
+	Enquanto fila ≠ ∅ faça
+		* v ← elemento da frente da fila (retire v da fila)
+		* para toda aresta (v,w), tal que w ainda não foi alcançado, marque w como alcançado e põe w na fila.
+
 - **Busca em profundidade**
 	- *Empilhe* um vértice qualquer u de G e marque-o como alcançado
 	- ```portugol
@@ -51,3 +51,5 @@ Enquanto fila ≠ ∅ faça
 		* v ← elemento do topo-da-pilha
 		* se existe aresta (v,w), tal que w ainda não foi alcançado, então marque w como alcançado e empilhe w; senão desempilha v.
 
+## Problema do caminho mínimo
+### Algoritmo de Dijkstra
