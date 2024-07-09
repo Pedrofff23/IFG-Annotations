@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Apresentação dos Dados/","tags":["PB"],"created":"2024-06-26T00:24:10.600-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Apresentação dos Dados/","tags":["PB"],"created":"2024-07-08T15:52:41.331-03:00"}
 ---
 
 

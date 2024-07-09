@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos/","created":"2024-06-26T00:24:10.600-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos/","created":"2024-07-08T15:52:22.895-03:00"}
 ---
 
 
@@ -7,6 +7,7 @@
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Incidência\|Matriz de Incidência]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Adjacência\|Matriz de Adjacência]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Algoritmos de busca em Grafos\|Algoritmos de busca em Grafos]]
+	- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Algoritmo de Dijkstra\|Algoritmo de Dijkstra]]
 
 ## Matriz de Incidência
 
@@ -53,3 +54,15 @@ Vamos descrever dois algoritmos de busca em grafos:
 
 ## Problema do caminho mínimo
 ### Algoritmo de Dijkstra
+
+- Escolhido um **vértice** como **raiz da busca**, este algoritmo *calcula o custo mínimo deste vértice para todos os demais vértices* do grafo.
+
+- O algoritmo pode ser usado sobre grafos orientados, ou não, e admite que todas as arestas possuem **pesos não negativos**.
+
+[[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmo de Dijkstra\|Exemplo de Resolução]]
+
+### Algoritmo de Floyd
+- Seja D = (V,A) um grafo dirigido, *possivelmente com custos negativos* nas arestas, mas **sem circuitos negativos**. O algoritmo de Floyd-Warshall (1959, 1962) determina a *distância* entre *cada par de vértices de D*.
+- É um algoritmo que resolve o problema de *calcular o caminho mais curto entre todos os pares de vértices* em um grafo dirigido e valorado (com peso).
+
+[[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmo de Floyd\|Exemplo de Resolução]]

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Isomorfismo/","created":"2024-06-26T00:24:10.600-03:00"}
+dg-publish: true
 ---
-
 - Um isomorfismo entre dois grafos é uma bijeção f de V(G) em V(H)  tal que:
 	- Número de vértices iguais?
 	- Número de arestas iguais?
