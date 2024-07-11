@@ -41,7 +41,7 @@ Vamos descrever dois algoritmos de busca em grafos:
 - **Busca em largura**
 	- *Põe* na fila um vértice qualquer u de G e marque-o como alcançado
 	- ```portugol
-	Enquanto fila ≠ ∅ faça
+		Enquanto fila ≠ ∅ faça
 		* v ← elemento da frente da fila (retire v da fila)
 		* para toda aresta (v,w), tal que w ainda não foi alcançado, marque w como alcançado e põe w na fila.
 

@@ -21,3 +21,4 @@
 - [[Faculdade/7 Periodo/Banco de Dados 2/BD2\|BD2]]
 
 { .block-language-dataview}
+

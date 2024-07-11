@@ -39,7 +39,6 @@ $$
 
 $$
 \textcolor{lightblue}{k = A } 
-
 $$
 
 $$
