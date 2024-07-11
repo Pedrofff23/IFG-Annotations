@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Caminhos e Ciclos/","created":"2024-07-08T15:52:06.490-03:00"}
 ---
+
 ## Tópicos
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Caminhos e Ciclos#Caminhos\|Caminhos]]
 	- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Caminhos e Ciclos#Passeio\|Passeio]]
