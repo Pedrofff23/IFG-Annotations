@@ -16,6 +16,7 @@ SELECT datanascimento, endereço
 	FROM EMPREGADO
 	WHERE pnome= ‘John’ AND minicia = ‘B’ and unome=‘Smith’
 ```
+
 $$
 π_{datanascimento,endereco}\hspace{2mm} \text{σ (pnome= ‘John’ AND minicia = ‘B’ and unome=‘Smith’)}^{(EMPREGADO)}
 $$
