@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Normalização/","created":"2024-07-11T15:06:44.421-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Normalização/","tags":["BD"],"created":"2024-07-11T15:06:44.421-03:00"}
 ---
 
 

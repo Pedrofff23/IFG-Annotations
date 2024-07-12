@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/NOSQL/","created":"2024-07-11T16:19:09.023-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/NOSQL/","tags":["BD"],"created":"2024-07-11T16:19:09.023-03:00"}
 ---
 
 

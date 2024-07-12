@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Algebra Relacional/","created":"2024-07-11T07:59:29.036-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Algebra Relacional/","tags":["BD"],"created":"2024-07-11T07:59:29.036-03:00"}
 ---
 
 
