@@ -7,7 +7,7 @@
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos\|Conceitos Básicos]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos\|Tipos de Grafos]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Isomorfismo\|Isomorfismo]],  [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Caminhos e Ciclos\|Caminhos e Ciclos]], [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos\|Algoritmos em Grafos]]; 
-- Cortes de Arestas, Cortes de Vértices; 
+- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Árvores\|Árvores]] (Cortes de Arestas, Cortes de Vértices); 
 - Conectividade: Conectividade de Vértices e Arestas; 
 - Caminhos e Ciclos Eulerianos e Hamiltonianos; 
 - Emparelhamentos; 
