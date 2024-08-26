@@ -10,5 +10,11 @@
 
 ## Processos
 - **Todo** software em execução no SO é um **processo**;
-- Uma CPU executa um **único processo** por vez. Mas como a alternância *é muito rápida*, dá-se a ilusão de processos serem executados paralelamente – **pseudoparalelismo**:
+- Uma CPU executa um **único processo** por vez. Mas como a alternância *é muito rápida*, dá-se a ilusão de processos serem executados paralelamente – **pseudoparalelismo**.
 - Um **algoritmo escalonador/agendador** (scheduling algorithm) é o componente que realiza a alternância
+- Um programa é uma série de passos para realizar uma tarefa
+	- Está em memória secundária, inerte
+- Um processo é uma instância de um programa em execução.
+	- Contém o contexto da CPU, das variáveis, recursos de E/S (estado do processo) e o programa em si
+	- Ele está em memória primária
+- 
