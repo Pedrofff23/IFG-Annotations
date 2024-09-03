@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmo de Krustal/","created":"2024-08-06T22:09:25.734-03:00"}
+dg-publish: true
 ---
-
-
 ## Todos os passos 
 
 > [!important] IMPORTANTE!

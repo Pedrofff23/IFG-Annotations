@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmo de Dijkstra/","created":"2024-07-08T21:12:33.344-03:00"}
+dg-publish: true
 ---
-
-
 ## Todos os passos
 
 ```mermaid

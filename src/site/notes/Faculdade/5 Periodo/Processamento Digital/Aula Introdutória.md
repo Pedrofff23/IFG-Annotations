@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Processamento Digital/Aula Introdutória/","tags":["PDI"],"created":"2024-07-08T15:52:06.488-03:00"}
+tags: PDI
+dg-publish: true
 ---
-
 # Avaliação
 
 Calculo da Nota da Matéria 

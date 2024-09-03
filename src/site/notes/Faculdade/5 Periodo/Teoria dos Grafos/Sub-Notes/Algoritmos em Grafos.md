@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos/","created":"2024-07-08T15:52:22.895-03:00"}
+dg-publish: true
 ---
-
 
 ## Tópicos
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Incidência\|Matriz de Incidência]]

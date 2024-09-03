@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/SQL/","tags":["BD"],"created":"2024-07-08T09:34:22.599-03:00"}
+dg-publish: true
+tags:
+  - BD
 ---
-
 
 ## Consultas Básicas em SQL
 

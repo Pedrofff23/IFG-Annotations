@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos/","created":"2024-06-26T00:24:10.600-03:00"}
----
+dg-publish: true
+dg-show-toc: false
 
+---
 ## Tópicos
 
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Tipos de Grafos#Grafo simples\|Simples]]

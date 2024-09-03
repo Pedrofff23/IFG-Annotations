@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Árvores/","created":"2024-08-06T08:23:31.502-03:00"}
+dg-publish: true
 ---
-
 ## Tópicos
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Árvores#Teoremas\|Teoremas]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Árvores#Corolário\|Corolário]]

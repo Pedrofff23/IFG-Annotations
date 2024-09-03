@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos/","tags":["grafos"],"created":"2024-07-08T15:52:06.490-03:00"}
+tags: grafos
+dg-publish: true
+dg-show-toc: false
 ---
-
 ## Tópicos
 1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Definições e Exemplos\|Definições e Exemplos]]
 	1. [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos#Arestas\|Arestas]]

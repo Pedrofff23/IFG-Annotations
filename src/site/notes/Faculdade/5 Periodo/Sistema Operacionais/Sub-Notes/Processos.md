@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Sistema Operacionais/Sub-Notes/Processos/","created":"2024-08-01T08:20:49.682-03:00"}
+dg-publish: true
 ---
-
 
 > [!important] 
 > - E/S duram uma eternidade para a CPU

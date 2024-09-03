@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmo de Floyd/","created":"2024-07-08T21:53:03.703-03:00"}
+dg-publish: true
 ---
-
 
 ```mermaid
 flowchart LR
