@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Introdução a Probabilidade/","tags":["PB"],"created":"2024-09-03T12:53:06.094-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Introdução a Probabilidade/","tags":["PB"],"created":"2024-10-18T13:31:56.145-03:00"}
 ---
 
 ## Análise Combinatória
@@ -16,5 +16,5 @@
 - Se houver apenas **k** itens sendo escolhidos de um total de nnn, o número de permutações é dado por:
 
 $$
-P(n,k)= (n!)/(n-k)!
+P(n,k)= \frac{n!}{(n-k)!} 
 $$

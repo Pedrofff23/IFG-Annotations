@@ -1,8 +1,7 @@
 ---
-tags:
-  - PB
-dg-publish: true
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Medidas centrais e de dispersão/","tags":["PB"],"created":"2024-10-18T13:31:56.145-03:00"}
 ---
+
 
 # Introdução
 - **Estatística descritiva**: Nos ajuda a entender melhor um conjunto de dados através de suas características

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Introdução a Estatística/","tags":["PB"],"created":"2024-03-15T07:42:37.128-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Sub-Notes/Introdução a Estatística/","tags":["PB"],"created":"2024-10-18T13:31:56.145-03:00"}
 ---
 
 

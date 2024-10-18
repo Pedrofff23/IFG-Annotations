@@ -1,12 +1,14 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos/","created":"2024-10-18T13:31:56.148-03:00"}
 ---
+
 
 ## Tópicos
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Incidência\|Matriz de Incidência]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Matriz de Adjacência\|Matriz de Adjacência]]
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Algoritmos de busca em Grafos\|Algoritmos de busca em Grafos]]
 	- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Algoritmo de Dijkstra\|Algoritmo de Dijkstra]]
+	- [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Algoritmos em Grafos#Algoritmo de Floyd\|Algoritmo de Floyd]]
 
 ## Matriz de Incidência
 

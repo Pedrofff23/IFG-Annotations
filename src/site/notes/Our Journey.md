@@ -1,7 +1,7 @@
 ---
-dg-home: true
-dg-publish: true
+{"dg-publish":true,"permalink":"/Our Journey/","tags":["gardenEntry"],"created":"2024-10-18T13:31:56.148-03:00"}
 ---
+
 
 > *_Ask yourself if what you’re doing today is getting you closer to where you want to be tomorrow._* \- Paulo Coelho
 

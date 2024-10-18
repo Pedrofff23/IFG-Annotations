@@ -1,8 +1,7 @@
 ---
-dg-publish: true
-tags:
-  - BD
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Algebra Relacional/","tags":["BD"],"created":"2024-10-18T13:31:56.148-03:00"}
 ---
+
 
 
 Duas Linguagens de Consultas matemáticas formam a base para as Linguagens de Consultas “reais”:

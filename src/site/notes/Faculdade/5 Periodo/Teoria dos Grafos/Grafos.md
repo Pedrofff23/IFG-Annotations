@@ -1,7 +1,7 @@
 ---
-tags: root,grafos
-dg-publish: true
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Teoria dos Grafos/Grafos/","tags":["root","grafos"],"created":"2024-10-18T13:31:56.148-03:00"}
 ---
+
 
 ## Ementa
 - [[Faculdade/5 Periodo/Teoria dos Grafos/Sub-Notes/Conceitos Básicos\|Conceitos Básicos]]

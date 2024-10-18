@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Probabilidade & Estatística/","tags":["root"],"created":"2024-02-21T10:52:22.602-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/5 Periodo/Probabilidade/Probabilidade & Estatística/","tags":["root"],"created":"2024-10-18T13:31:56.145-03:00"}
 ---
 
 

@@ -1,8 +1,7 @@
 ---
-dg-publish: true
-tags: root,BD
-dg-show-local-graph: true
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/BD2/","tags":["root","BD"],"dgShowLocalGraph":true,"created":"2024-10-18T13:31:56.148-03:00"}
 ---
+
 ## Ementa
 ### BD 1 (Revisão)
 - [[Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Modelo Entidade Relacionamento\|Modelo Entidade Relacionamento]]
