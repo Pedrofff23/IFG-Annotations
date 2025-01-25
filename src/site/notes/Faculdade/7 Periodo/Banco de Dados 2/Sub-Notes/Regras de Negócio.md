@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Regras de Negócio/","tags":["BD"],"created":"2024-10-18T13:31:56.148-03:00"}
+{"dg-publish":true,"permalink":"/Faculdade/7 Periodo/Banco de Dados 2/Sub-Notes/Regras de Negócio/","tags":["BD"],"created":"2024-12-26T10:28:39.600-03:00"}
 ---
 
 ## Tipos de Restrições
